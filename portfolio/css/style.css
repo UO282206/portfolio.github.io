@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+header > a, h1, section > p{
+    font-family: 'VT323', sans-serif;
+}
+
+header > a {
+    font-size: 4em;
+    text-decoration: none;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: font-size 0.1s;
+}
+
+nav > a:hover{
+    font-size: 1.4em;
+}
+
+h1{
+    font-size: 7em;
+}
+
+section > p{
+    font-size: 3em;
+}
+
+header > nav *, section > h2, footer *{
+    font-family: 'Nunito', sans-serif;
+}
+
+section > h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+header{
+    background-color: black;
+}
+
+header > a, nav > a{
+    color: white;
+}
+
+nav > a:hover{
+    background-color: rgb(32,32,32);
+}
+
+.progress-bar{
+    background-color: #e0e0e0;
+}
+
+.progress-bar-fill-color-orange{
+    background-color: orange;
+}
+
+.progress-bar-fill-color-light-blue{
+    background-color: lightblue;
+}
+
+.progress-bar-fill-color-red{
+    background-color: red;
+}
+
+.progress-bar-fill-color-yellow{
+    background-color: yellow;
+}
+
+.progress-bar-fill-color-purple{
+    background-color: purple;
+}
+
+.progress-bar-fill-color-blue{
+    background-color: blue;
+}
