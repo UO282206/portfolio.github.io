@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body{
+    background-color: rgb(40, 40, 43);
+}
+
+.column > p, header > a, h1, section > p{
+    font-family: 'VT323', sans-serif;
+}
+
+.red-p{
+    color: red;
+}
+
+.blue-p{
+    color: darkblue;
+}
+
+header > a {
+    font-size: 4em;
+    text-decoration: none;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: font-size 0.1s;
+}
+
+nav > a:hover{
+    font-size: 1.4em;
+}
+
+h1{
+    font-size: 7em;
+}
+
+section > p{
+    font-size: 3em;
+    animation: typing 3.5s steps(50, end);
+}
+
+header > nav *, section > h2, footer *{
+    font-family: 'Nunito', sans-serif;
+}
+
+section > h2, footer > h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+header{
+    background-color: black;
+    z-index: 1;
+}
+
+header > a, nav > a{
+    color: white;
+}
+
+nav > a:hover{
+    background-color: rgb(32,32,32);
+}
+
+.progress-bar{
+    background-color: #e0e0e0;
+}
+
+.progress-bar-fill-80 {
+    width: 80%;
+    animation: grow-80 1s linear;
+}
+
+.progress-bar-fill-70 {
+    animation: grow-70 1s linear;
+}
+
+.progress-bar-fill-60 {
+    animation: grow-60 1s linear;
+}
+
+.progress-bar-fill-50 {
+    animation: grow-50 1s linear;
+}
+
+.progress-bar-fill-40 {
+    animation: grow-40 1s linear;
+}
+
+.progress-bar-fill-color-orange{
+    background-color: orange;
+}
+
+.progress-bar-fill-color-light-blue{
+    background-color: lightblue;
+}
+
+.progress-bar-fill-color-red{
+    background-color: red;
+}
+
+.progress-bar-fill-color-yellow{
+    background-color: yellow;
+}
+
+.progress-bar-fill-color-purple{
+    background-color: purple;
+}
+
+.progress-bar-fill-color-blue{
+    background-color: blue;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+

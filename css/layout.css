@@ -1,0 +1,156 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > a{
+    margin-left: 0.5em;
+}
+
+nav > a{
+    padding: 1.5rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+main, section{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    display: inline;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    align-self: center;
+}
+
+img{
+    width: 75%;
+    align-self: center;
+    margin: 5em;
+}
+
+article:first-of-type > .row > .column > img, section:nth-of-type(3) > .row > .column > img{
+    width: 50%;
+    align-self: center;
+}
+
+section:nth-of-type(3) > .row > .column > img{
+    margin-bottom: 1em;
+}
+
+h3{
+    align-self: center;
+    text-align: center;
+}
+
+section > p{
+    align-self: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 9em;
+    margin-bottom: 7em;
+}
+
+form{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+label, input, textarea{
+    width: 60em;
+    justify-self: center;
+}
+
+textarea{
+    height: 40em;
+}
+
+.column > p{
+    align-self: center;
+    font-size: 7em;
+}
+
+section > h2, footer > h2{
+    margin-left: 0.3em;
+    margin-bottom: 5em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.progress-bar {
+    width: 75%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.progress-bar-fill-80 {
+    display: block;
+    height: 22px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    width: 80%;
+}
+
+.progress-bar-fill-70 {
+    display: block;
+    height: 22px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    width: 70%;
+}
+
+.progress-bar-fill-60 {
+    display: block;
+    height: 22px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    width: 60%;
+    animation: grow-60 1s linear;
+}
+
+.progress-bar-fill-50 {
+    display: block;
+    height: 22px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    width: 50%;
+}
+
+.progress-bar-fill-40 {
+    display: block;
+    height: 22px;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    width: 40%;
+}
+
+
